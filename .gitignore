@@ -43,3 +43,9 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# CI workflows are source files and must remain versioned.
+!/.github/
+!/.github/workflows/
+!/.github/workflows/*.yml
+!/.github/workflows/*.yaml
